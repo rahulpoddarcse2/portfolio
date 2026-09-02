@@ -5,7 +5,7 @@ const CONTENT = {
   },
   about: {
     paragraphs: [
-      "I'm a BCA graduate specializing in Cloud Data Engineering, currently interning as a DevOps engineer where I work daily with AWS, Docker, Jenkins, GitHub Actions, Terraform, Prometheus and Grafana under senior engineers.",
+      "I'm a BCA graduate specializing in Cloud Data Engineering, currently working as a DevOps Consultant where I work daily with AWS, Docker, Jenkins, GitHub Actions, Terraform, Prometheus and Grafana under senior engineers.",
       "What pulled me into this field was watching a deployment go from a 20-step checklist to a single git push. I like the discipline of infrastructure-as-code and the immediate feedback loop of CI/CD — you know within minutes whether a change works.",
       "This site's contact form, visitor counter and the pipeline demo below are wired to a small Express backend running alongside the page — not just static markup."
     ]
@@ -19,7 +19,7 @@ const CONTENT = {
   ],
   experience: [
     {
-      role: "DevOps Intern",
+      role: "DevOps Consultant",
       org: "DevOps Insider",
       period: "May 2026 — Present",
       points: [
