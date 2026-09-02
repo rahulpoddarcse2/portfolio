@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rahul — DevOps & Cloud Engineer</title>
+<meta name="description" content="Rahul — DevOps & Cloud Engineer portfolio. CI/CD, Docker, Kubernetes, Terraform, AWS/Azure." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="aurora" aria-hidden="true">
+  <span class="blob blob-a"></span>
+  <span class="blob blob-b"></span>
+  <span class="blob blob-c"></span>
+</div>
+
+<header class="nav-bar">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">Rahul<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-section="about">About</a>
+      <a href="#skills" data-section="skills">Skills</a>
+      <a href="#experience" data-section="experience">Experience</a>
+      <a href="#projects" data-section="projects">Projects</a>
+      <a href="#certifications" data-section="certifications">Certifications</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-kicker">DevOps & Cloud Engineer, based in Delhi NCR</p>
+        <h1 class="hero-title">I ship code the boring, reliable way — automatically.</h1>
+        <p class="hero-sub" id="heroTagline">Loading…</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See the projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-console glass" id="pipelineConsole">
+        <div class="console-head">
+          <span class="console-title">Pipeline demo — Node.js app to EC2</span>
+          <button class="console-run" id="runPipelineBtn" type="button">Run pipeline</button>
+        </div>
+        <ol class="console-stages" id="pipelineStages">
+          <!-- stages injected by JS -->
+        </ol>
+        <p class="console-footnote">Live from the backend at <code>/api/pipeline/run</code></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner narrow">
+      <h2 class="section-heading">About</h2>
+      <div class="about-body" id="aboutParagraphs">
+        <p>Loading…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <h2 class="section-heading">What I work with</h2>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-inner narrow">
+      <h2 class="section-heading">Experience</h2>
+      <div id="experienceList"></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <h2 class="section-heading">Projects</h2>
+      <div class="projects-wrap" id="projectsWrap"></div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="section-inner narrow">
+      <h2 class="section-heading">Certifications</h2>
+      <div class="cert-badges" id="certBadges"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="section-inner narrow">
+      <h2 class="section-heading">Contact</h2>
+      <div class="contact-links" id="contactLinks"></div>
+      <p class="visit-badge" id="visitBadge"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner narrow footer-inner">
+    <span>Built by Rahul — front end and this Express backend, both.</span>
+    <span id="apiStatus" class="api-status">checking backend…</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
