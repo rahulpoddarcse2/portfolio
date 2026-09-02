@@ -267,7 +267,7 @@ function wait(ms) {
 
 function updateVisitBadge() {
   document.getElementById("visitBadge").textContent =
-    `You're visitor #47 on this deployment. (Preview mode — the real site pulls this from the Express backend.)`;
+    `Thanks for stopping by. This pipeline demo runs in your browser — the full working backend version is in the project repo.`;
 }
 
 function escapeHtml(str) {
@@ -279,5 +279,5 @@ function escapeHtml(str) {
 /* ---------- Init ---------- */
 renderAll();
 updateVisitBadge();
-document.getElementById("apiStatus").textContent = "preview mode (static)";
+document.getElementById("apiStatus").textContent = "static build";
 document.getElementById("apiStatus").className = "api-status";
