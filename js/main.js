@@ -7,7 +7,7 @@ const CONTENT = {
     paragraphs: [
       "I'm a BCA graduate specializing in Cloud Data Engineering, currently working as a DevOps Consultant where I work daily with AWS, Docker, Jenkins, GitHub Actions, Terraform, Prometheus and Grafana under senior engineers.",
       "What pulled me into this field was watching a deployment go from a 20-step checklist to a single git push. I like the discipline of infrastructure-as-code and the immediate feedback loop of CI/CD — you know within minutes whether a change works.",
-      "This site's contact form, visitor counter and the pipeline demo below are wired to a small Express backend running alongside the page — not just static markup."
+      "This site is a static build — the pipeline demo above runs entirely in your browser to illustrate the flow. The real, backend-driven version of that pipeline lives in the CI/CD project below."
     ]
   },
   skills: [
